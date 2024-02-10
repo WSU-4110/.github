@@ -1,6 +1,6 @@
 name: New non-functional requirement
 description: New  non-functional requirement
-title: "[NFR] <title>"
+title: "[NFR-xx] <title>"
 labels: ["non-functional", "product-backlog", "constraints"]
 body:
 - type: input
