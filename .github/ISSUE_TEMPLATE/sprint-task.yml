@@ -1,6 +1,6 @@
 name: New Task (Sprint backlog)
 description: New task
-title: "[TASK] <title>"
+title: "[TASK] "
 labels: ["sprint-backlog", "task"]
 body:
 - type: input
@@ -25,5 +25,11 @@ body:
   attributes:
     label: Estimate
     description: Number of hours required to complete the task
+  validations:
+    required: true
+  - type: input
+  attributes:
+    label: Associated feature
+    description: Product backlog item that requires this task. Type "#" to get selection.
   validations:
     required: true
