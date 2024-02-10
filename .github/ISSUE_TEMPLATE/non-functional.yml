@@ -1,12 +1,12 @@
 name: New non-functional requirement
-description: New functional requrement
+description: New  non-functional requirement
 title: "[NFR] <title>"
 labels: ["non-functional", "product-backlog", "constraints"]
 body:
 - type: input
   attributes:
-    label: Title
-    description: A short title to refer to this non-functional requirement
+    label: Goal
+    description: The primary objective of this non-functional requirement
   validations:
     required: true
 - type: textarea
