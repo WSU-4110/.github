@@ -1,0 +1,65 @@
+name: Functional requirement
+description: Request a new feature for the software
+title: "[FR] <title>"
+labels: ["Product backlog", "Feature request", "Functional requirement"]
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing feature request for this?
+    description: Please search to see if any existing feature request covers this.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Title
+    description: One sentence to refer to this feature
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: A concise description of the feature.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Stakeholders
+    description: Which groups are primary users of this feature?
+    placeholder: |
+      1. Customers | Users |Administrators
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Origin
+    description: Where does this requirement come from?
+    placeholder: |
+      Original specification
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Version
+    description: Version of the requirement
+    placeholder: |
+      1. 1.0
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Date
+    description: Date when this requirement is finalized.
+    placeholder: |
+      1. Customers | Users |Administrators
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Priority
+    description: Version of the requirement
+    placeholder: |
+      1. High |Medium| Low| Nice to have
+  validations:
+    required: false
+
