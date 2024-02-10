@@ -27,7 +27,7 @@ body:
   attributes:
     label: Origin
     description: Where does this requirement come from?
-    placeholder: 
+    placeholder: |
       Original specification
   validations:
     required: true
@@ -43,6 +43,8 @@ body:
   attributes:
     label: Date
     description: Date when this requirement is finalized.
+    placeholder: |
+      Today
     validations:
     required: false
 - type: dropdown
