@@ -38,7 +38,7 @@ body:
   attributes:
     label: Priority
     description: Priority of the proposed feature
-  options:
+  Options:
     - Must have
     - Should have
     - Could have
