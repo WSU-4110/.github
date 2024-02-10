@@ -6,18 +6,22 @@ labels:
   - Feature request
   - Functional requirement
 body:
+- type: input
+  id: prevalence
+  attributes:
+    label: Bug prevalence
+    description: "How often do you or others encounter this bug?"
+    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+  validations:
+    required: true
   - type: input
-    attributes:
-      label: Title
-      description: One sentence to refer to this feature
-      validations:
-        required: false
-  - type: textarea
-    attributes:
-      label: Description
-      description: A concise description of the feature.
-    validations:
-      required: true
+  id: prevalence
+  attributes:
+    label: Bug prevalence
+    description: "How often do you or others encounter this bug?"
+    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+  validations:
+    required: true
   - type: input
     attributes:
       label: Stakeholders
