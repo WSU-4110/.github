@@ -4,11 +4,11 @@ title: "[FR] <title>"
 labels: ["Product backlog", "Feature request", "Functional requirement"]
 body:
 - type: textarea
-  attributes:
+    attributes:
     label: Title
     description: One sentence to refer to this feature
-  validations:
-    required: true
+    validations:
+      required: true
 - type: textarea
   attributes:
     label: Description
@@ -21,8 +21,8 @@ body:
     description: Which groups are primary users of this feature?
     placeholder: |
       Users
-  validations:
-    required: true
+    validations:
+      required: true
 - type: input
   attributes:
     label: Origin
@@ -37,7 +37,7 @@ body:
     description: Version of the requirement
     placeholder: |
       1.0
-    validations:
+  validations:
     required: true
 - type: input
   attributes:
@@ -45,16 +45,16 @@ body:
     description: Date when this requirement is finalized.
     placeholder: |
       Today
-    validations:
+  validations:
     required: false
 - type: dropdown
   attributes:
     label: Priority
     description: Issue priority
     options: 
-    - Must have
-    - Should have
-    - Could have
-    - Won't havee
+      - Must have
+      - Should have
+      - Could have
+      - Won't have
   validations:
     required: true
