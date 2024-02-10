@@ -8,16 +8,16 @@ labels:
 body:
 - type: input
    attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    label: Title
+    description: Feature title
+    placeholder: One sentence to refer to this feature
   validations:
     required: true
-  - type: input
+  - type: textarea
    attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    label: Description
+    description: A concise description of the proposed feature.
+    placeholder: Feature description
   validations:
     required: true
   - type: input
