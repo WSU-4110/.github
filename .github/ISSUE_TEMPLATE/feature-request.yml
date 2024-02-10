@@ -3,13 +3,6 @@ description: Request a new feature for the software
 title: "[FR] <title>"
 labels: ["Product backlog", "Feature request", "Functional requirement"]
 body:
-- type: checkboxes
-  attributes:
-    label: Is there an existing feature request for this?
-    description: Please search to see if any existing feature request covers this.
-    options:
-    - label: I have searched the existing issues
-      required: true
 - type: textarea
   attributes:
     label: Title
@@ -27,14 +20,14 @@ body:
     label: Stakeholders
     description: Which groups are primary users of this feature?
     placeholder: |
-      1. Customers | Users |Administrators
+      Users
   validations:
     required: true
 - type: input
   attributes:
     label: Origin
     description: Where does this requirement come from?
-    placeholder: |
+    placeholder: 
       Original specification
   validations:
     required: true
@@ -43,7 +36,7 @@ body:
     label: Version
     description: Version of the requirement
     placeholder: |
-      1. 1.0
+     
   validations:
     required: true
 - type: input
@@ -51,15 +44,18 @@ body:
     label: Date
     description: Date when this requirement is finalized.
     placeholder: |
-      1. Customers | Users |Administrators
+     
   validations:
     required: false
-- type: input
+- type: dropdown
   attributes:
     label: Priority
-    description: Version of the requirement
-    placeholder: |
-      1. High |Medium| Low| Nice to have
+    description: Issue priority
+    options: 
+    - Must have
+    - Should have
+    - Could have
+    - Won't havee
   validations:
-    required: false
+    required: true
 
