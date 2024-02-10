@@ -36,9 +36,8 @@ body:
         - Group meeting
 - type: dropdown
   attributes:
-    label: Priority
-    description: Priority of the proposed feature
-    Options:
+    label: Priority of the proposed feature    
+    options:
       - Must have
       - Should have
       - Could have
