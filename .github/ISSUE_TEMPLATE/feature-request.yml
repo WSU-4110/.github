@@ -7,8 +7,8 @@ body:
   attributes:
     label: Title
     description: One sentence to refer to this feature
-    validations:
-      required: true
+validations:
+    required: false
 - type: textarea
   attributes:
     label: Description
