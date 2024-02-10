@@ -1,0 +1,29 @@
+name: New Task (Sprint backlog)
+description: New task
+title: "[TASK] <title>"
+labels: ["sprint-backlog", "task"]
+body:
+- type: input
+  attributes:
+    label: Title
+    description: Goal of the task
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: Description of the task
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Acceptance criteria
+    description: A list of criteria to validate, if the task has been completed correctly
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Estimate
+    description: Number of hours required to complete the task
+  validations:
+    required: true
