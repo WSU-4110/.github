@@ -1,12 +1,12 @@
 name: New functional requirement
 description: New functional requrement
-title: "[FR] <title>"
+title: "[FR-xx] <title>"
 labels: ["functional", "product-backlog", "feature"]
 body:
 - type: input
   attributes:
-    label: Title
-    description: A short title to refer to this feature
+    label: Goal
+    description: Primary objective of this feature
   validations:
     required: true
 - type: textarea
