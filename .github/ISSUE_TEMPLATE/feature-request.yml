@@ -33,11 +33,11 @@ body:
     required: true
 - type: input
   attributes:
-    label: Version
+    label: Product version
     description: Version of the requirement
     placeholder: |
-      x.x
-     validations:
+      1.0
+    validations:
     required: true
 - type: input
   attributes:
