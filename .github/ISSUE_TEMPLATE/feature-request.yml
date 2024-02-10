@@ -1,60 +1,63 @@
 name: Functional requirement
 description: Request a new feature for the software
-title: "[FR] <title>"
-labels: ["Product backlog", "Feature request", "Functional requirement"]
+title: '[FR] <title>'
+labels:
+  - Product backlog
+  - Feature request
+  - Functional requirement
 body:
-- type: input
-  attributes:
-    label: Title
-    description: One sentence to refer to this feature
-validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Description
-    description: A concise description of the feature.
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Stakeholders
-    description: Which groups are primary users of this feature?
-    placeholder: |
-      Users
+  - type: input
+    attributes:
+      label: Title
+      description: One sentence to refer to this feature
+      validations:
+        required: false
+  - type: textarea
+    attributes:
+      label: Description
+      description: A concise description of the feature.
     validations:
       required: true
-- type: input
-  attributes:
-    label: Origin
-    description: Where does this requirement come from?
-    placeholder: |
-      Original specification
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Product version
-    description: Version of the requirement
-    placeholder: |
-      1.0
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Date
-    description: Date when this requirement is finalized.
-    placeholder: |
-      Today
-  validations:
-    required: false
-- type: dropdown
-  attributes:
-    label: Priority
-    description: Issue priority
-    options: 
-      - Must have
-      - Should have
-      - Could have
-      - Won't have
-  validations:
-    required: true
+  - type: input
+    attributes:
+      label: Stakeholders
+      description: Which groups are primary users of this feature?
+      placeholder: |
+        Users
+      validations:
+        required: true
+  - type: input
+    attributes:
+      label: Origin
+      description: Where does this requirement come from?
+      placeholder: |
+        Original specification
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Product version
+      description: Version of the requirement
+      placeholder: |
+        1.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Date
+      description: Date when this requirement is finalized.
+      placeholder: |
+        Today
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: Issue priority
+      options:
+        - Must have
+        - Should have
+        - Could have
+        - Won't have
+    validations:
+      required: true
