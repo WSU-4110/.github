@@ -36,16 +36,14 @@ body:
     label: Version
     description: Version of the requirement
     placeholder: |
-     
-  validations:
+      x.x
+     validations:
     required: true
 - type: input
   attributes:
     label: Date
     description: Date when this requirement is finalized.
-    placeholder: |
-     
-  validations:
+    validations:
     required: false
 - type: dropdown
   attributes:
@@ -58,4 +56,3 @@ body:
     - Won't havee
   validations:
     required: true
-
