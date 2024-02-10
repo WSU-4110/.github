@@ -5,7 +5,7 @@ labels: ["sprint-backlog", "task"]
 body:
 - type: input
   attributes:
-    label: Title
+    label: Goal
     description: Goal of the task
   validations:
     required: true
