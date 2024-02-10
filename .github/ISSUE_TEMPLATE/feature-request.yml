@@ -3,7 +3,7 @@ description: Request a new feature for the software
 title: "[FR] <title>"
 labels: ["Product backlog", "Feature request", "Functional requirement"]
 body:
-- type: dropdown
+- type: input
   attributes:
     label: Title
     description: One sentence to refer to this feature
