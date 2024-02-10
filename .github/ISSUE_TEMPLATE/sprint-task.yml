@@ -27,7 +27,7 @@ body:
     description: Number of hours required to complete the task
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
     label: Associated feature
     description: Product backlog item that requires this task. Type "#" to get selection.
