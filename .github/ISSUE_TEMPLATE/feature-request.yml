@@ -1,12 +1,12 @@
 name: New functional requirement
-description: New functional requrement
+description: New functional requirement
 title: "[FR-xx] <title>"
 labels: ["functional", "product-backlog", "feature"]
 body:
 - type: input
   attributes:
     label: Goal
-    description: Primary objective of this feature
+    description: The primary objective of this feature
   validations:
     required: true
 - type: textarea
@@ -18,7 +18,7 @@ body:
 - type: input
   attributes:
     label: Stakeholders
-    description: Group of users, who will use this feature.
+    description: Group of users who will use this feature.
   validations:
     required: true
 - type: input
@@ -29,10 +29,16 @@ body:
     required: false
 - type: input
   attributes:
+    label: Version
+    description: requirement version
+  validations:
+    required: false
+- type: input
+  attributes:
     label: Origin
     description: |
       examples:
-        - Project desciption document
+        - Project description document
         - Group meeting
 - type: dropdown
   attributes:
