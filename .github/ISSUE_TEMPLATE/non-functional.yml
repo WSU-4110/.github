@@ -18,7 +18,7 @@ body:
 - type: input
   attributes:
     label: Stakeholders
-    description: Group of users, who are affected.
+    description: Group of users who are affected.
   validations:
     required: true
 - type: input
@@ -29,10 +29,16 @@ body:
     required: false
 - type: input
   attributes:
+    label: Version
+    description: Requirement version
+  validations:
+    required: false
+- type: input
+  attributes:
     label: Origin
     description: |
       examples:
-        - Project desciption document
+        - Project description document
         - Group meeting
 - type: dropdown
   attributes:
