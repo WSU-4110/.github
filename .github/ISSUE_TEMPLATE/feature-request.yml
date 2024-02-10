@@ -19,11 +19,14 @@ body:
   attributes:
     label: Stakeholders
     description: Group of users, who will use this feature.
-    placeholder: |
-      1. Students
-      2. Instructors      
   validations:
     required: true
+- type: input
+  attributes:
+    label: Date
+    description: Last modified date
+  validations:
+    required: false
 - type: input
   attributes:
     label: Origin
@@ -31,3 +34,12 @@ body:
       examples:
         - Project desciption document
         - Group meeting
+- type: dropdown
+  attributes:
+    label: Priority
+    description: Priority of the proposed feature
+  options:
+    - Must have
+    - Should have
+    - Could have
+    - Won't have
